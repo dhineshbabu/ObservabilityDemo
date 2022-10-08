@@ -1,0 +1,2 @@
+docker run -dp 5007:5000 -w /app -v "$(pwd):/app" flask-smorest-api
+docker build -t flask-smorest-api .
